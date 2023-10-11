@@ -1,0 +1,37 @@
+.singleToken-whitelist1 {
+    display: flex;
+    text-align: center;
+    padding: 5px 10px;
+    align-items: center;
+    height: 30px;
+    width: 800px;
+}
+
+.singleToken-whitelist1 img {
+    width: 25px;
+}
+
+.singleToken-whitelist1 img:last-child {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.singleToken-whitelist1_token {
+    font-weight: bold;
+    min-width: 60px;
+}
+
+.singleToken-whitelist1_balance {
+    width: 200px;
+    text-align: left;
+    color: white;
+    font-size: 13px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+
+.singleToken-whitelist1-add-MT {
+    display: flex;
+    align-items: center;
+    color: white
+}

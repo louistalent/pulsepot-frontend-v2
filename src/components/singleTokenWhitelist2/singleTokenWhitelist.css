@@ -1,0 +1,48 @@
+.singleToken-whitelist__tokenimage {
+    width: 30px !important;
+}
+
+.singleToken-whitelist {
+    display: flex;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    border-top: 1px solid rgb(64 65 73);
+}
+
+.singleToken-whitelist:first-child {
+    border: 0px solid white;
+}
+
+/* 
+.singleToken-whitelist:hover {
+    background-color: rgba(190, 190, 190, 0.524);
+} */
+
+
+.singleToken-whitelist img:last-child {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.singleToken-whitelist_token {
+    font-weight: bold;
+    min-width: 60px;
+}
+
+.singleToken-whitelist_balance {
+    width: 200px;
+    text-align: right;
+    color: grey;
+    font-size: 13px;
+    padding-left: 30px;
+}
+
+/* 
+.singleToken-whitelist:nth-child(odd) {
+    background: #ededed;
+} */
+
+.singleToken-whitelist_import {
+    width: 10px !important;
+}

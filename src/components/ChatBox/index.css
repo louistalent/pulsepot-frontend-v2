@@ -1,0 +1,170 @@
+.chatbox-container {
+  text-align: center;
+  max-width: 728px;
+  margin: 0 auto;
+  background-color: #393b47;
+  height: calc(100% - 45px);
+  min-height: 600px;
+  max-height: 600px;
+}
+
+.chatbox-container header {
+  background-color: #181717;
+  height: 10vh;
+  min-height: 50px;
+  color: white;
+  position: fixed;
+  width: 100%;
+  max-width: 728px;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  z-index: 99;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.chatbox-container section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: rgb(40, 37, 53);
+}
+
+.chatbox-container main {
+  height: calc(100% - 97px);
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  padding: 0 20px 0 20px;
+}
+
+.chatbox-container main::-webkit-scrollbar {
+  width: 0.25rem;
+}
+
+.chatbox-container main::-webkit-scrollbar-track {
+  background: #1e1e24;
+}
+
+.chatbox-container main::-webkit-scrollbar-thumb {
+  background: #cecece;
+}
+
+.chatbox-container form {
+  background-color: #393b47;
+  padding: 20px 20px;
+  display: flex;
+  font-size: 1.5rem;
+}
+
+.chatbox-container form button {
+  width: 91px;
+  margin-left: 21px;
+  border-radius: 5px;
+}
+
+
+.chatbox-container input {
+  line-height: 1.5;
+  flex: 1 1;
+  font-size: 14px;
+  background: #212529;
+  color: white;
+  outline: none;
+  border: none;
+  padding: 0px 10px;
+  border-radius: 7px;
+}
+
+.chatbox-container button {
+  background-color: rgb(71, 95, 155);
+  border: none;
+  color: white;
+  padding: 9px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  font-size: 1rem;
+}
+
+.chatbox-container button:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+
+.chatbox-container .sign-in {
+  color: #282c34;
+  background: white;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+
+
+
+.chatbox-container ul,
+li {
+  text-align: left;
+  list-style: none;
+}
+
+.chatbox-container .message .user-id {
+  float: left;
+  margin-right: 4px;
+  color: white;
+  font-weight: 700;
+  margin-top: -1px;
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+}
+
+.chatbox-container .message .identicon {
+  top: 1px !important;
+}
+
+
+.chatbox-container .message {
+  word-break: break-word;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-top: 1px solid rgb(80 82 94);
+  font-size: 13px;
+}
+
+.chatbox-container .message:first-child {
+  border: none;
+}
+
+.chatbox-container .sent {
+  flex-direction: row-reverse;
+}
+
+.chatbox-container .sent p {
+  color: white;
+  background: #0b93f6;
+  align-self: flex-end;
+}
+
+.chatbox-container .received p {
+  background: #e5e5ea;
+  color: black;
+}
+
+.chatbox-container img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin: 2px 5px;
+}
+
+#msg-list-container {
+  max-height: 500px;
+  min-height: 500px;
+}

@@ -1,0 +1,31 @@
+.currentPotInfo__potstarted {
+  color: #acacac;
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.currentPotInfo {
+  width: 400px;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.currentPotInfo__potentries {
+  margin-bottom: 20px;
+  min-height: 50px;
+  text-align: center;
+}
+
+
+
+@media only screen and (max-device-width: 1000px) {
+  .currentPotInfo {
+    max-width: 90vw;
+    margin: auto;
+  }
+
+  .currentPotInfo__potentries {
+    margin-top: 30px;
+  }
+}

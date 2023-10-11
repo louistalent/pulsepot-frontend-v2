@@ -1,0 +1,27 @@
+.makebet-body {
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 15px;
+    background: #393b47;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: grey;
+    flex-direction: column;
+}
+
+.justify {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.makebet-body .flex2 {
+    flex: 2;
+}
+
+
+.makebet-body .flex1 {
+    flex: 1;
+}

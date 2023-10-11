@@ -1,0 +1,9 @@
+.tokens-whitelist>div:nth-child(odd) {
+    background: #424453;
+    border-bottom: 1px solid #5f6477;
+    border-top: 1px solid #5f6477;
+}
+
+.tokens-whitelist>div:nth-child(even) {
+    background: #3b3a48;
+}

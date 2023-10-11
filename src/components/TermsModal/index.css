@@ -1,0 +1,75 @@
+.terms-modal-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 600px;
+  width: 80%;
+  background-color: rgb(71, 70, 84);
+  border-radius: 10px;
+  box-shadow: 24;
+  padding: 2rem;
+}
+
+.terms-modal-container:focus-visible {
+  outline: none;
+}
+
+.terms-modal-container * {
+  font-family: 'Inter', cursive !important;
+}
+
+.terms-modal-title {
+  color: white;
+  font-size: 28px !important;
+  font-weight: 600 !important;
+  text-align: center;
+  margin-bottom: 10px !important;
+}
+
+.terms-text::-webkit-scrollbar {
+  width: 5px;
+  right: 5px;
+}
+
+/* Track */
+.terms-text::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey;
+  border-radius: 10px;
+}
+
+/* Handle */
+.terms-text::-webkit-scrollbar-thumb {
+  background: rgba(248, 246, 246, 0.63);
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.terms-text::-webkit-scrollbar-thumb:hover {
+  background: rgb(248, 246, 246);
+}
+
+.accept-btn {
+  border: 3px solid rgb(61 60 72);
+  border-radius: 9px;
+  padding: 9px 18px;
+  cursor: pointer;
+  color: rgb(55 53 69);
+  background: none;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+.accept-btn.active {
+  border-color: rgb(75, 108, 70);
+  background: rgba(60, 131, 49, 0.6);
+  color: white;
+}
+
+.accept-btn.active:hover {
+  background: rgb(22, 133, 5);
+}
+
+.text-white {
+  color: rgb(110, 109, 109);
+}

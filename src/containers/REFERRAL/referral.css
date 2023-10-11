@@ -1,0 +1,71 @@
+.Referral {
+    font-weight: 400;
+    font-size: 17px;
+}
+
+.Referral img {
+    width: 30px;
+}
+
+.referral-copy {
+    display: flex;
+    background: #504f5f;
+    width: 350px;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    font-weight: 600;
+    color: white;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+.referral-copy img {
+    width: 25px;
+}
+
+.referral-statistics {
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.referral-statistics img {
+    margin-right: 20px;
+}
+
+.referral-pphase-progress span {
+    font-size: 14px;
+    color: #727890;
+    margin-left: 10px;
+}
+
+.p-phase-progressbar {
+    background: #464553;
+    position: relative;
+    text-align: center;
+}
+
+.p-phase-progressbar,
+.p-phase-progressbar div:first-child {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.pphase-percentage {
+    position: relative;
+    font-size: 8px;
+    bottom: 11px;
+    color: black;
+}
+
+
+@media only screen and (max-device-width: 1000px) {
+    .referral-copy {
+        width: 100%;
+        border-radius: 5px;
+    }
+}

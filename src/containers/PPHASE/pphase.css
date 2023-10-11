@@ -1,0 +1,66 @@
+.p-phase-content {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    position: relative;
+}
+
+.p-phase-content2 {
+    display: grid;
+    justify-content: center;
+    position: relative;
+    top: -50px;
+}
+
+.user-pphase-amount {
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 120px;
+    color: white;
+    font-weight: 500;
+    background: #474654;
+}
+
+.user-pphase-amount img {
+    width: 25px;
+    margin: 0px 5px;
+}
+
+.p-phase-progressbar {
+    background: #464553;
+    position: relative;
+    text-align: center;
+}
+
+.p-phase-progressbar,
+.p-phase-progressbar div:first-child {
+    height: 10px;
+    border-radius: 5px;
+}
+
+.pphase-percentage {
+    position: relative;
+    font-size: 8px;
+    bottom: 11px;
+    color: black;
+}
+
+
+
+@media only screen and (max-device-width: 700px) {
+
+    .p-phase-content {
+        grid-template-columns: 1fr;
+        justify-items: start;
+    }
+
+    .p-phase-content2 {
+        top: 10px;
+        height: 35px;
+        width: 80px;
+        max-width: 100%;
+        left: 20px;
+    }
+
+}

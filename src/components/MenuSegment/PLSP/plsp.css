@@ -1,0 +1,19 @@
+@media only screen and (max-device-width: 1000px) {
+    .MenuItem_mobile_pos {
+        position: relative;
+        right: 200%;
+    }
+
+}
+
+.Plsp {
+    margin-top: 5px;
+}
+
+.menu_bnbp_mprice {
+    color: #72af28 !important;
+    padding: 2px 4px;
+    background-color: #72af2817;
+    border-radius: 30px;
+    text-align: center;
+}

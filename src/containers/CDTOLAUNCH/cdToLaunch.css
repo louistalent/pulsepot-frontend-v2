@@ -1,0 +1,132 @@
+.CDLaunch {
+    display: grid;
+    justify-content: center;
+}
+
+.cdlaunch-content {
+    width: 600px;
+    margin-top: 50px;
+    display: grid;
+    grid-template-rows: 50px 250px 50px;
+    align-items: center;
+}
+
+.cdlaunch-content img {
+    width: 20px;
+}
+
+.cdlaunch-c1 a {
+    text-decoration: none;
+}
+
+.cdlaunch-c1 {
+    display: grid;
+    grid-template-columns: 2fr 2fr 2fr;
+}
+
+.cdlaunch-c1>div a {
+    display: flex;
+    align-items: center;
+    line-height: 20px;
+    background: #454753;
+    margin: 0px 5px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+    height: 40px;
+}
+
+.cdlaunch-c2 {
+    display: grid;
+    background: #454753;
+    margin: 0px 5px;
+    border-radius: 10px;
+    padding: 20px;
+    grid-template-rows: 40px 20px 80px 40px;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.cdlaunch-c2 div {
+    text-align: center;
+}
+
+.cdlaunch-c2-1 {
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.cdlaunch-c2-2 {
+    color: white;
+}
+
+.cdlaunch-c2-3 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.cdlaunch-c2-3 .displayedTime span {
+    color: #f3ba2c !important;
+    font-weight: 600 !important;
+}
+
+.cdlaunch-c2-3 .displayedTime span {
+    font-size: 50px;
+    font-weight: bold;
+    background-color: transparent !important;
+}
+
+.cdlaunch-c2-faucet {
+    background-color: #2b2a31;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 5px;
+    height: 40px;
+    width: 500px;
+}
+
+
+
+@media only screen and (max-device-width: 1000px) {
+    .cdlaunch-content {
+        width: 100%;
+    }
+
+    .cdlaunch-content {
+        grid-template-rows: 200px 50px 50px 50px 50px 50px;
+    }
+
+    .cdlaunch-c2 {
+        grid-template-rows: 40px 20px 80px;
+        height: min-content;
+    }
+
+    .cdlaunch-c1 {
+        grid-template-columns: 2fr 2fr;
+    }
+
+    .cdlaunch-c1>div a {
+        border: 1px solid #494b5e;
+        background: #2a2a31;
+    }
+
+    .cdlaunch-c2-faucet {
+        width: 98%;
+        margin: auto;
+    }
+
+    .cdlaunch-c1_mobile_pphase {
+        border: 1px solid #494b5e;
+        display: flex;
+        /* grid-template-columns: 4fr 1fr; */
+        background-color: #2b2a31;
+        height: 40px;
+        width: 96%;
+        margin: auto;
+        align-items: center;
+        justify-content: space-around;
+        border-radius: 10px;
+    }
+
+}

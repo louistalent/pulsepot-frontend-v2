@@ -1,0 +1,55 @@
+.staking-info .text-center {
+  text-align: center;
+}
+
+.staking-info .text-right {
+  text-align: right;
+}
+
+.staking-info .mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.staking-info__ {
+  background-color: #d9ab0d;
+  background: #1fc7d4;
+
+}
+
+.staking-info .MuiLinearProgress-colorPrimary {
+  background: #474654 !important;
+}
+
+.stkaing-info-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.staking-info .stkaing-info-col {
+  flex: 1;
+  justify-content: space-between;
+  border-right: 1px grey solid;
+}
+
+.staking-info .mr-1 {
+  margin-right: 0.25rem;
+}
+
+.staking-input-endAdornment {
+  display: flex;
+  align-items: center;
+}
+
+.staking-max-btn {
+  color: #dfb43a;
+  font-size: 9px;
+  font-weight: 600;
+  border: 1px solid #dfb43a;
+  padding: 0px 4px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.staking-max-btn:hover {
+  background: #434348;
+}

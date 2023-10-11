@@ -1,0 +1,126 @@
+.potcontract-addinfo {
+    display: flex;
+    justify-items: center;
+    margin-top: 20px;
+    margin-top: 2px;
+    background: white;
+}
+
+.potcontract-addinfo_qrcode img {
+    width: 120px;
+    padding: 10px 30px;
+}
+
+.potcontract-addinfo_address {
+    padding: 30px;
+    padding-left: 0px;
+}
+
+
+.potcontract-addinfo_address__ {
+    display: flex;
+    align-items: center;
+}
+
+.potcontract-addinfo_address--copyimg {
+    border: 1px solid #484b65;
+    display: inline-flex;
+    align-items: flex-end;
+    margin-top: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    /* margin-left: -50px; */
+}
+
+.potcontract-addinfo_address--copy {
+    font-size: 11px;
+    height: 20px;
+    padding: 0px 0px 0px 10px;
+}
+
+.potcontract-addinfo_address--img {
+    background: #464653;
+    padding: 3px 5px;
+}
+
+.potcontract-addinfo_address--img img {
+    width: 15px;
+    color: black;
+    cursor: pointer;
+}
+
+.potcontract-addinfo span {
+    font-size: 15px;
+    font-weight: 600;
+    color: gray;
+    border-radius: 5px;
+}
+
+.potcontract-addinfo_address--st {
+    background: #edf8d8;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.potcontract-addinfo_address--st:hover {
+    cursor: pointer;
+}
+
+.potcontract-addinfo_address--st img {
+    width: 15px;
+    margin-left: 10px;
+    /* margin-bottom: -5px; */
+}
+
+
+span.potcontract-addinfo_address--copy {
+    width: 220px;
+    overflow-x: hidden;
+    font-size: 10px;
+}
+
+
+.potcontract-addinfo_address--copy::-webkit-scrollbar {
+    /* width: 2px; */
+    /* margin: 50px 10px; */
+}
+
+/* Track */
+.potcontract-addinfo_address--copy::-webkit-scrollbar-track {
+    /* width: 20px;
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+    border: solid 1px rgba(255, 0, 0, 0); */
+}
+
+/* Handle */
+.potcontract-addinfo_address--copy::-webkit-scrollbar-thumb {
+    /* width: 20px;
+    border-radius: 10px;
+    background: #c0c0c0;
+    border: solid 3px rgba(255, 0, 0, 0); */
+}
+
+/* Handle on hover */
+.potcontract-addinfo_address--copy::-webkit-scrollbar-thumb:hover {
+    /* background: #f3ba2c; */
+}
+
+@media only screen and (max-device-width: 1000px) {
+    .potcontract-addinfo_qrcode img {
+        padding: 10px;
+    }
+
+    .potcontract-addinfo_address {
+        padding: 30px 0px;
+    }
+
+    .potcontract-addinfo_address__ {
+        font-size: 14px;
+    }
+
+    .potcontract-addinfo_address--copy {
+        max-width: 150px;
+        overflow: auto;
+    }
+}

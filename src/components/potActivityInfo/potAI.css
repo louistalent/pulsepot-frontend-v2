@@ -1,0 +1,19 @@
+.pot-activityinfo {
+    overflow: auto;
+
+}
+
+.pot-activityinfo__columnreverse {
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.waitingFP {
+    background: #2d2e36;
+    width: 200px;
+    margin: auto;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin-top: 20px;
+}

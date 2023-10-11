@@ -1,0 +1,38 @@
+.wheel_container {
+  /* display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    justify-items: center;
+    height: 400px;
+    background-color: #2d2e36; */
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 400px;
+  background-color: #2d2e36;
+  margin: auto;
+  width: 100%;
+  position: relative;
+
+}
+
+.wheel {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.circle-container {
+  flex: 1;
+}
+
+.circle-img {
+  background: #393b47;
+  height: 300px;
+  width: 300px;
+
+  border-radius: 50%;
+}
+
+.bet-container {
+  flex: 1;
+}

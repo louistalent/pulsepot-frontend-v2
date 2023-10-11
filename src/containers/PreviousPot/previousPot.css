@@ -1,0 +1,26 @@
+.leftside-potinfo__potstarted {
+    color: #acacac;
+    margin-top: 10px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.leftside-potinfo__potentries {
+    margin-bottom: 20px;
+}
+
+.PreviousPot {
+    width: 400px;
+    margin: auto;
+}
+
+
+
+
+
+@media only screen and (max-device-width: 1000px) {
+    .PreviousPot {
+        max-width: 95vw;
+        margin: auto;
+    }
+}

@@ -1,0 +1,29 @@
+.activity-header {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-items: center;
+  line-height: 45px;
+  /* height: 45px; */
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.activity-header div:first-child {
+  width: 100%;
+  text-align: center;
+}
+
+.activity-header div:nth-child(2) {
+  /* border-left: 1.5px solid #c9c9c9; */
+  width: calc(100% - 2px);
+  text-align: center;
+}
+
+.dark_bg .activity-tab.selected {
+  border-bottom: 1px solid #1015226b;
+}
+
+.dark_bg .activity-tab.not-selected {
+  background: #2d2e36b2;
+  border: 1px solid #2d2e36;
+}
